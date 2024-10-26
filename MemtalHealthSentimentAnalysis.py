@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
-df = pd.read_csv('/content/Tracking_Mental_Health.csv')
+df = pd.read_csv('Tracking_Mental_Health.csv')
 column_name = 'Significant mental challenges'
 def custom_sentiment(text):
   if text=='No Challenges':
